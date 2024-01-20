@@ -1,0 +1,42 @@
+.swiper__container{
+    margin: 2rem 0;
+}
+.mySwiper{
+    z-index: -10!important;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    position: absolute;
+    bottom: 0;
+}
+
+.slide1{
+    display: flex;
+    gap: 40px;
+    background-color: #df93a3;
+    padding: 2rem 3rem; 
+    width: 100%;
+    max-width: 1120px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.slide1__payments{
+    display: flex;
+    gap: 10px;
+    padding: 2.5rem;
+    background-color: var(--secondary-color);
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.slide1__payments-number{
+    font-size: 2.5rem;
+}

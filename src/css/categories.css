@@ -1,0 +1,34 @@
+.container__categories{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.categories{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon__category{
+    width: 48px;
+}
+
+.category{
+   background-color: #fff;
+   padding: 1rem;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   cursor: pointer;
+}
+
+.category span{
+    font-size: 1rem;
+    color: #000;
+}
