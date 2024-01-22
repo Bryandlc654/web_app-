@@ -14,7 +14,7 @@ const categoryData = [
 ];
 
 const Categories = () => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState(3);
 
   const handleCategoryClick = (categoryId) => {
     setSelectedCategory(categoryId);

@@ -2,18 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 :root {
-  --primary-color: #A0A0A0;
-  --secondary-color: #ED9FB0;
-  --swiper-theme-color: #ED9FB0;
-
+  --primary-color: #a0a0a0;
+  --secondary-color: #ed9fb0;
+  --swiper-theme-color: #ed9fb0;
 }
 
 body {
-  background-color: #F8F8F8;
-  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  font-family: "Poppins", sans-serif;
 }
 
 .splash-screen {
@@ -21,11 +24,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ED9FB0;
+  background-color: #ed9fb0;
 }
 
 .splash-screen img {
   width: 18rem;
 }
+
+
 
 

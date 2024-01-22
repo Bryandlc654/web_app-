@@ -12,7 +12,7 @@ const SearchBar = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        if (query.length >= 3) {
+        if (query.length >= 1) {
           const response = await fetch(`https://apis.nextboostperu.com/Florista/Productos/api.php`);
           const data = await response.json();
 
@@ -35,7 +35,7 @@ const SearchBar = () => {
   return (
     <div className="search-bar">
       <input
-        type="text"
+        type="search"
         className="search-input"
         placeholder="Buscar productos"
         value={query}
